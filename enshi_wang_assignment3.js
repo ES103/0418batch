@@ -91,8 +91,8 @@ var html ="<table border = '1|1'>"
 
     for(var i=0;i<dropDownList.length;i++)
     {
-        option += '<option value="'+ dropDownList[i].value +'">' + 
-        dropDownList[i].value + " </option>"
+        option += '<option value="'+ dropDownList[i].content +'">' + 
+        dropDownList[i].content + " </option>"
     }
 
     document.getElementById("dropDownList").innerHTML =option
