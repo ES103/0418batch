@@ -17,10 +17,12 @@ console.log(newArr);
 
 // Q2
 function fil(obj){
-    if (obj.quantity >2 & obj.price >300)
-     return true;
-    else
-     return false;
+    return (obj.quantity >2 && obj.price >300);
+//     if (obj.quantity >2 & obj.price >300)
+     
+//      return true;
+//     else
+//      return false;
 }
 let res2 = itemsObject.filter(fil);
 console.log(res2);
@@ -37,7 +39,7 @@ const string =
 ' Perhaps The Easiest-to-understand Case For Reduce Is To Return The Sum Of All The Elements In An Array ';
 
 function newstr(str) {
-	return str.replace(/[^a-zA-Z]/g,"").toLowerCase()};
+	return str.replace(/[^a-zA-Z]/g," ").toLowerCase().trim()};
 
     console.log(newstr(string));
 
