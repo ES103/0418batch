@@ -42,4 +42,4 @@ function newstr(str) {
 	return str.replace(/[^a-zA-Z]/g," ").toLowerCase().trim()};
 
     console.log(newstr(string));
-
+ 
