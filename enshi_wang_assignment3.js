@@ -1,3 +1,4 @@
+//Q1
 function funCall(){
 const tableInfo = [
     {
@@ -28,7 +29,6 @@ const tableInfo = [
     //  tableHeader: ['Student Name', 'Age', 'Phone', 'Address'],
 var html ="<table border = '1|1'>"
     
-    setTimeout(() =>{
         html+='<thead>'
         html+='<tr>';
         html+='<td>'+'Student Name'+'</td>';
@@ -46,9 +46,12 @@ var html ="<table border = '1|1'>"
     }
 
     document.getElementById("table").innerHTML = html
-},0);
+
 }
+
     funCall()
+
+//Q2
 
     const list = ['HTML', 'JavaScript', 'CSS', 'React', 'Redux', 'Java'];
     
@@ -56,28 +59,31 @@ var html ="<table border = '1|1'>"
 
     var ul = document.getElementById("first-ul")
 
-    var btn = 
-    document.getElementById("btn")
+    // var btn = 
+    // document.getElementById("btn")
     
-    btn.addEventListener("click",
-    function(){
+    // btn.addEventListener("click",
+    function unorder(){
         list.forEach(function(e) {
         var li = document.createElement('li');
     li.innerText = e;
     ul.append(li)
      }) 
-    })
+    }
 
-    btn.addEventListener("click",
-    function(){
+    // btn.addEventListener("click",
+    function order(){
         list.forEach(function(e) {
         var li = document.createElement('li');
     li.innerText = e;
     ol.append(li)
      }) 
-    })
+    }
 
+    unorder()
+    order()
 
+//Q3
     const dropDownList = [
         { value: 'newark', content: 'Newark' },
         { value: 'santaClara', content: 'Santa Clara' },

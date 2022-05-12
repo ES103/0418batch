@@ -15,11 +15,6 @@
             background-color: #b7b8b9;
           }
   
-          input[type="text"]::placeholder { 
-              
-              text-align: left;
-          }
-  
           body {
               text-align:center;
           }
